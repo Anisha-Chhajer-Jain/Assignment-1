@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>3. Lazy Loading Image</h2>
+    <h2>4. Good Morning</h2>
+    <!-- title shows tooltip on hover -->
+    <img src="images.png" alt="Image with title" width="200" title="This is a flower"> 
+   <!-- 5. Image map (clickable areas inside an image) -->
+    <h2>5. Image Map</h2>
+    <img src="images2.png" alt="Clickable map" usemap="#examplemap" width="200">
+    <map name="examplemap">
+        <!-- shape: rectangle coords: x1,y1,x2,y2 -->
+        <area shape="rect" coords="0,0,50,50" href="https://codingGita.com" alt="Top left area">
+        <!-- shape: circle coords: centerX,centerY,radius -->
+        <area shape="circle" coords="200,150,50" href="https://google.com" alt="Circle area">
+    </map>
+ 
+      <!-- 6. Responsive image using srcset -->
+    <h2>6. Responsive Image with Srcset</h2>
+    <!-- srcset provides different images for different screen widths -->
+    <img src="images.jpg" 
+         srcset="images5.png 380w, images3.png 860w, images4.png 267w" 
+         alt="Responsive image" width="300">
+</body>
+</html>
